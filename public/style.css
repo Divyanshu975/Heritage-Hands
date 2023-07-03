@@ -1,0 +1,144 @@
+/*********************Global styles*******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ostrich+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-abhaya-libre: "Abhaya Libre";
+  --font-cabin: Cabin;
+  --font-inter: Inter;
+  --font-ostrich-sans: "Ostrich Sans";
+  --font-poppins: Poppins;
+  --font-jost: Jost;
+
+  /* font sizes */
+
+    font-size: 62.5%;
+
+  --font-size-5xl: 24px;
+  --font-size-31xl: 50px;
+  --font-size-17xl: 36px;
+  --font-size-21xl: 40px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #6c4343;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-255xl: 274px;
+  --br-11xl: 30px;
+  --br-21xl: 40px;
+}
+
+
+/*************NAVBAR******************/
+
+.main-nav{
+    width:100%;
+    height:15rem;
+    display:grid;
+    grid-template-columns: 10rem 0.85fr 2fr 1fr 10rem;
+}
+
+
+
+.heritagehands-1-icon,
+.logo {
+  width: 354px;
+  height: 128px;
+  padding:10px;
+}
+
+.logo {
+    display:flex;
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+
+.menu-link{
+    grid-column:3/4;
+}
+
+.menu-link ul{
+    height:10rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr ;
+    align-items: center;
+    list-style-type: none;
+    font-size: var(--font-size-5xl);
+  font-family: var(--font-jost);
+  
+}
+
+.menu-link a{
+    color: #000;
+    text-decoration: none;
+    text-decoration: bold;
+    margin:10px;
+}
+
+.search-cart{
+    grid-column: 4/5;
+}
+
+.cart-icon,.user-icon{
+    font-size:35px;
+    display:flex;
+    margin:10px;
+    cursor:pointer;
+}
+
+.search-cart{
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items:center;
+}
+.search-form{
+    width:max-content;
+    max-height: 37px;
+    margin:0;
+    display:flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+    background-image:linear-gradient(to right,#fca583,#b73861);
+    align-items:center;
+}
+
+.search-bar{
+    border:0;
+    outline:none;
+    border-radius: 60px;
+    opacity: 50%;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-jost);
+}
+
+.search-icon{
+    font-size:20px;
+    border:0px;
+    cursor:pointer;
+}
+
+.submit-button{
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background:transparent;
+}
+
+@media (max-width:960px){
+    
+}
