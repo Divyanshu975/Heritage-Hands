@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pre-requisites:
+
+Make sure you have node installed , then initialise npm, i.e., npm init in the project directory and finally run script 'npm run' to view the website on localhost:3000 on your default browse.
+
 ## Available Scripts
 
 In the project directory, you can run:
